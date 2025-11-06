@@ -1,0 +1,587 @@
+
+
+/*  ABOUT SECTION  */
+
+.about {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.about-wrap {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* LEFT */
+.about-img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(2, 8, 23, 0.08);
+}
+
+.about-mission {
+  margin-top: 18px;
+  background: #184f4a;
+  color: #fff;
+  border-radius: 14px;
+  padding: 22px 24px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.about-mission-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 20px;
+  flex: 0 0 42px;
+}
+
+.about-mission-title {
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.about-mission p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+/* RIGHT */
+.about-right {
+  max-width: 680px;
+}
+
+.about-badge {
+  display: inline-block;
+  background: #e9f7ee;
+  color: #0a5a47;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.about-title {
+  margin: 12px 0 14px;
+  /* font-size: clamp(28px, 3.6vw, 44px); */
+  font-size: 1.9rem;
+
+  line-height: 1.18;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+}
+
+.about-right p {
+  color: #475569;
+  margin: 0 0 14px;
+}
+
+.about-kv-title {
+  font-weight: 700;
+  margin: 10px 0 12px;
+}
+
+.about-chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 26px;
+  color: #0f5132;
+  font-weight: 600;
+}
+
+/* ===== WHY CHOOSE US ===== */
+
+.choose {
+  background: #f2faf5;
+  border-radius: 18px;
+  padding: 60px 50px;
+  margin-top: 60px;
+}
+
+.choose-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.choose h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.choose p {
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+/* Button */
+.choose-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #185046;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.choose-btn:hover {
+  background: #123b32;
+}
+
+.choose-btn span:first-child {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: #fff;
+  color: #185046;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Features Grid */
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 40px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #dcefdc;
+  color: #185046;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+}
+
+.feature h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.feature p {
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ===== FAQ SECTION ===== */
+
+.faq {
+  background: #f9f9fb;
+  padding: 80px 0;
+}
+
+.faq-wrap {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.faq-badge {
+  display: inline-block;
+  background: #e9f7ee;
+  color: #0a5a47;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.faq-title {
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.faq-desc {
+  color: #475569;
+  font-size: 16px;
+  max-width: 640px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.faq-list details {
+  background: #fff;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  padding: 20px 22px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #0f172a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+
+.faq-list summary::after {
+  content: "+";
+  font-size: 24px;
+  color: #185046;
+  transition: transform 0.3s ease;
+}
+
+.faq-list details[open] summary::after {
+  content: "−";
+}
+
+.faq-list p {
+  padding: 0 22px 22px;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.55;
+  background: #fff;
+}
+
+.faq-list details[open],
+.faq-list summary:hover {
+  background: #f2faf5;
+}
+
+ 
+
+/* 1024px */
+@media (max-width: 1024px) {
+   
+  .about-wrap,
+  .choose-wrap {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .choose {
+    padding: 50px 30px;
+  }
+
+  .faq {
+    padding: 70px 0;
+  }
+
+  .faq-title {
+    font-size: 32px;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .choose {
+    padding: 40px 24px;
+  }
+
+  .choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .faq {
+    padding: 60px 0;
+  }
+
+  .faq-desc {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .faq-list summary {
+    font-size: 15px;
+  }
+}
+
+/* 578px */
+@media (max-width: 578px) {
+   
+  .about,
+  .choose,
+  .faq {
+    padding: 50px 0;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .faq-title {
+    font-size: 24px;
+  }
+
+  .faq-list summary {
+    font-size: 14.5px;
+    padding: 14px 16px;
+  }
+
+  .faq-list p {
+    font-size: 13.5px;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .about,
+  .choose,
+  .faq {
+    padding: 40px 0;
+  }
+
+  .faq-badge {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .faq-title {
+    font-size: 22px;
+  }
+}
+
+/* Fade-in  */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ /* why choose us animation */
+.choose-left h3,
+.choose-left p,
+.choose-left .choose-btn {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+}
+
+.choose-left h3 {
+  animation-delay: 0.2s;
+}
+
+.choose-left p {
+  animation-delay: 0.4s;
+}
+
+.choose-left .choose-btn {
+  animation-delay: 0.6s;
+}
+
+.choose-grid .feature {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+}
+
+.choose-grid .feature:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.choose-grid .feature:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.choose-grid .feature:nth-child(3) {
+  animation-delay: 0.7s;
+}
+
+.choose-grid .feature:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* fequently asked quations animation */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FAQ */
+.faq-badge {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.faq-title {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.faq-desc {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.faq-list details {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+}
+
+.faq-list details:nth-child(1) {
+     animation-delay: 0.8s; 
+    }
+.faq-list details:nth-child(2) { 
+    animation-delay: 1.0s; 
+}
+.faq-list details:nth-child(3) {
+     animation-delay: 1.2s;
+     }
+.faq-list details:nth-child(4) {
+     animation-delay: 1.4s; }
+.faq-list details:nth-child(5) {
+     animation-delay: 1.6s; 
+    }
+
+
+/* About Image */
+.about-left .about-img {
+  opacity: 0;
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.about-left .about-mission {
+  opacity: 0;
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.3s; 
+}
+
+.about-right .about-title {
+  opacity: 0;
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.about-right p {
+  opacity: 0;
+  animation: fadeSlideUp 0.5s ease forwards;
+}
+
+.about-right p:nth-child(3) { 
+  animation-delay: 0.8s;
+}
+
+.about-right p:nth-child(4) { 
+  animation-delay: 1s;
+}
+
+.about-chips {
+  opacity: 0;
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 1.5s;
+}
+
+
+
+
+
+
+/* About section responsive layout */
+@media (max-width: 900px) {
+  .about-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Text comes first */
+  .about-right {
+    order: 1;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  /* Image comes second */
+  .about-left .about-img {
+    order: 2;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  /* Green mission card comes last */
+  .about-left .about-mission {
+    order: 3;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  /* Ensure left container full width */
+  .about-left {
+    width: 100%;
+  }
+}
