@@ -1,43 +1,42 @@
-Fintech Landing Page 🌐
+Nova Project 🌟
 
-A modern and responsive fintech landing page designed with HTML and CSS. Features engaging animations, service sections, pricing plans, testimonials, and a newsletter subscription. Fully optimized for desktop, tablet, and mobile devices.
+A modern, responsive web page template built with HTML and CSS. Includes sections like services, pricing, testimonials, FAQ, and contact forms, with smooth animations and a fully responsive design.
 
-Demo
+🚀 Features
 
-You can view a live demo here
- (replace # with your live link if hosted)
+Hero Section: Engaging headline, call-to-action buttons, and overlay card
 
-Features ✨
+Services: Animated service cards highlighting key offerings
 
-Hero Section – Eye-catching headline with call-to-action buttons and overlay card
+Pricing Plans: Personal and business plans with clear structure
 
-Services – Animated service cards highlighting core offerings
+About Section: Mission statement, key values, and company vision
 
-Pricing Plans – Personal and business plans with responsive layout
+Testimonials: Realistic user feedback cards with images
 
-About Section – Mission statement, key values, and company vision
+FAQ Section: Expandable questions for better UX
 
-Testimonials – Realistic user feedback cards with images
+Contact Section: Contact information and newsletter subscription
 
-FAQ Section – Expandable questions with smooth transitions
+Animations: Fade-in and slide-up effects for modern feel
 
-Contact Section – Contact info and subscription form with responsive design
+Fully Responsive: Optimized for all screen sizes and devices
 
-Responsive Design – Works on all devices (desktop, tablet, mobile)
+🛠 Technologies
 
-Animations – Fade-in and slide-up effects for modern feel
+HTML5 – Semantic markup for structure and accessibility
 
-Technologies 🛠️
+CSS3 – Flexbox, Grid, media queries, and animations
 
-HTML5 – Semantic structure
+Keyframe Animations – Smooth fade-in and slide-up effects
 
-CSS3 – Flexbox, Grid, and Media Queries
+⚡ How to Use
 
-Keyframe Animations – Smooth entrance effects for sections and cards
+Download the project files as a ZIP or copy them directly.
 
-Fully responsive layout for all screen sizes
+Open index.html in your browser to view the page.
 
-Responsive Breakpoints
+Customize images, text, and styles as needed.
 
 1024px – Tablet layout
 
