@@ -1,4 +1,4 @@
-/* Base Styles */
+/* contact Styles */
 .contact {
   padding: 60px 20px;
   font-family: "Poppins", sans-serif;
@@ -106,7 +106,7 @@
 .contact-form button:hover {
   background-color: #12463b;
 }
-/* Base input styles */
+/*  input styles */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -118,19 +118,16 @@
   transition: all 0.3s ease;
 }
 
-/* Hover and Focus Effects */
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #195a4d;  /* Green accent */
+  border-color: #195a4d;  
   box-shadow: 0 0 5px rgba(25, 90, 77, 0.2);
 }
 
 
-/* ---------- Responsive Design ---------- */
 
-/* Tablets (1024px and below) */
 @media (max-width: 1024px) {
   .contact-content {
     flex-direction: column;
@@ -138,7 +135,6 @@
   }
 }
 
-/* Tablets and Small Screens (768px and below) */
 @media (max-width: 768px) {
   .contact-header h2 {
     font-size: 24px;
@@ -153,7 +149,6 @@
     font-size: 13px;
   }
 }
-/* Mobile (568px and below) */
 @media (max-width: 568px) {
   .contact {
     padding: 40px 15px;
@@ -163,7 +158,6 @@
     width: 100%;
   }
 
-  /* Base input styles */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -175,12 +169,11 @@
   transition: all 0.3s ease;
 }
 
-/* Hover and Focus Effects */
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #195a4d;  /* Green accent */
+  border-color: #195a4d;
   box-shadow: 0 0 5px rgba(25, 90, 77, 0.2);
 }
 
@@ -217,7 +210,6 @@
 
 
 /* contact animation */
-/* Fade-in + slide-up animation */
 @keyframes fadeSlideUp {
   0% {
     opacity: 0;
@@ -242,7 +234,6 @@
   animation-delay: 0.4s;
 }
 
-/* Left info boxes animation */
 .contact-info .info-box {
   opacity: 0;
   animation: fadeSlideUp 0.5s ease forwards;
@@ -258,7 +249,6 @@
      animation-delay: 1.0s; 
     }
 
-/* Right form animation */
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
@@ -266,7 +256,6 @@
   animation: fadeSlideUp 0.5s ease forwards;
 }
 
-/* Stagger form fields */
 .contact-form input:nth-child(1) { 
     animation-delay: 1.2s; 
 }

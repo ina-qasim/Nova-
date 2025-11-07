@@ -106,7 +106,7 @@
   font-weight: 600;
 }
 
-/* ===== WHY CHOOSE US ===== */
+/*  WHY CHOOSE US */
 
 .choose {
   background: #f2faf5;
@@ -203,7 +203,7 @@
   margin: 0;
 }
 
-/* ===== FAQ SECTION ===== */
+/* FAQ SECTION  */
 
 .faq {
   background: #f9f9fb;
@@ -551,21 +551,18 @@
 
 
 
-/* About section responsive layout */
 @media (max-width: 900px) {
   .about-wrap {
     display: flex;
     flex-direction: column;
   }
 
-  /* Text comes first */
   .about-right {
     order: 1;
     width: 100%;
     margin-bottom: 16px;
   }
 
-  /* Image comes second */
   .about-left .about-img {
     order: 2;
     width: 100%;
@@ -573,14 +570,12 @@
     margin-bottom: 16px;
   }
 
-  /* Green mission card comes last */
   .about-left .about-mission {
     order: 3;
     margin-top: 12px;
     width: 100%;
   }
 
-  /* Ensure left container full width */
   .about-left {
     width: 100%;
   }

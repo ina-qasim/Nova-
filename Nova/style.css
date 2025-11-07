@@ -309,6 +309,14 @@ body{
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
 .hero-card .exp .label {
   font-size: 10px;
   color: #0b3f2a;
@@ -359,7 +367,9 @@ body{
   align-items: center;
   gap: 8px;
 }
-
+/* .card-header .exp {
+  background-color: lightgreen;
+} */
 .hero-card .ico {
   width: 20px;
   display: inline-flex;
