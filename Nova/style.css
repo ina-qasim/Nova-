@@ -412,25 +412,24 @@ body{
   .hero-card .tx-row .txt .title,
   .hero-card .tx-row .txt .sub,
   .hero-card .tx-row .val {
-    font-size: 9px;  /* smaller but readable */
+    font-size: 9px; 
   }
 
   .hero-card .tx-row {
-    padding: 6px 0;  /* compact row spacing */
+    padding: 6px 0;  
   }
 }
 @media (max-width: 768px) {
   .hero-card {
     width: 250px;
-    height: 300px;          /* desired height */
+    height: 300px;         
     padding: 10px 12px;
-    overflow: hidden;       /* prevent content from overflowing */
+    overflow: hidden;       
     bottom: 18%;
     left: 25%;
     transform: translate(-50%, 50%);
   }
 
-  /* Optionally make text smaller to fit */
   .hero-card .amount strong {
     font-size: 20px;
   }
@@ -444,8 +443,8 @@ body{
   }
 
   .hero-card .tx {
-    max-height: 150px;      /* restrict list height */
-    overflow-y: auto;       /* scroll if necessary */
+    max-height: 190px;      
+    overflow-y: auto;    
   }
 
   .hero-card .tx-row {
@@ -459,13 +458,17 @@ body{
 @media (max-width: 768px) {
   .hero-card {
     width: 290px;
-    height: 205px;
+    height: 270px;
      margin-left: 73px;
 
   }
+  /* .exp{
+    height: 20px;
+    width: 200px;
+  } */
   .hero-text h1{
-    font-weight:400;
-    font-size: 26px;
+    font-weight:300;
+    font-size: 15px;
 
   }
   .hero-text p{
@@ -476,6 +479,7 @@ body{
 @media (max-width: 578px) {
   .hero-card {
     width: 220px;
+    /* height: 500px; */
     /* margin-left: 370px; */
   }
 }
@@ -647,10 +651,10 @@ body{
   margin-top:6px
 }
 .feat-title{
-  text-transform:uppercase;
+   text-transform:uppercase;
    font-size:11px;
-    letter-spacing:.6px;
-  color:#a6d5c8;
+   letter-spacing:.6px;
+   color:#a6d5c8;
    margin-bottom:8px; 
    font-weight:700
 }
@@ -715,7 +719,7 @@ body{
   animation-delay: 0.6s;
 }
 
-/* Pricing plans animation */
+/* Pricing planings animation */
 .plans .plan {
   opacity: 0;
   animation: fadeSlideUp 0.6s ease forwards;
@@ -977,7 +981,7 @@ body{
 
    
 
-
+/* testimols */
 
 
   .testimonials {
@@ -1024,7 +1028,7 @@ body{
     margin: 0 auto;
   }
   
-  /* Grid styles */
+  /* Grid  */
   .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -1077,7 +1081,7 @@ body{
     margin-left: 4px;
   }
   
-  /* User info styles */
+  /* User  */
   .testimonial-user {
     display: flex;
     align-items: center;
@@ -1220,55 +1224,122 @@ body{
 }
 
 /* newsletter */
-.news {
+.newsletter {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: column;  
   gap: 16px;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.news h3 {
+.newsletter h3 {
+  font-size: 1.5rem;
+  color: #333;
   margin-bottom: 6px;
 }
 
-.news p {
-  color: #555;
-  line-height: 1.5;
-}
-
-.news-form {
+.news-content {
   display: flex;
-  flex-direction: column; 
-  gap: 10px;
+  align-items: center; 
+  gap: 20px;  
   width: 100%;
 }
 
-.news-form input {
+.newsletter p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 1rem;
+  flex-grow: 1; 
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;  
+}
+
+.newsletter-form input {
   padding: 12px 16px;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 1rem;
-  flex: 1;
+  width: 250px;
 }
 
-.news-form button {
+.newsletter-form button {
   padding: 12px 16px;
   border: none;
   border-radius: 6px;
-  background: #155e57;
-  color: #fff;
+  background-color: #2b7a78;
+  color: white;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.news-form button:hover {
-  background: #00a868;
+.newsletter-form button:hover {
+  background-color: #3b9a8c; 
 }
 
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .newsletter {
+    padding: 15px;
+  }
+
+  .newsletter h3 {
+    font-size: 1.3rem;
+  }
+
+  .newsletter p {
+    font-size: 0.9rem;
+  }
+
+  .news-content {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;  
+    gap: 8px;
+    width: 100%; 
+  }
+
+  .newsletter-form input {
+    width: 100%; 
+  }
+
+  .newsletter-form button {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter h3 {
+    font-size: 1.2rem;
+  }
+
+  .newsletter p {
+    font-size: 0.8rem;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    padding: 10px 14px;
+  }
+
+  .newsletter-form input {
+    width: 100%;  
+  }
+
+  .newsletter-form button {
+    width: 100%; 
+  }
+}
 
 
 
@@ -1434,17 +1505,25 @@ body{
 }
 
 
-/* ====== Base ====== */
+/*  Base */
 :root{
   --ink:#0f172a;
   --muted:#4b5563;
-  --green:#1f6a60;        /* dot color */
-  --chip:#e7f2ea;         /* pill bg */
-  --curve:#7a9b8f;        /* dashed curve color */
+  --green:#1f6a60;        
+  --chip:#e7f2ea;        
+  --curve:#7a9b8f;        
 }
-*{box-sizing:border-box}
-.how{padding:56px 20px 72px;background:#fff;color:var(--ink);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
-.how-wrap{max-width:1000px;margin:auto;text-align:center}
+.how{
+  padding:56px 20px 72px;
+  background:#fff;
+  color:var(--ink);
+  font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif
+}
+.how-wrap{
+  max-width:1000px;
+  margin:auto;
+  text-align:center
+}
 
 /* head */
 .how-pill{
@@ -1457,8 +1536,16 @@ body{
   border-radius:999px;
   padding:6px 12px;
 }
-.how-title{font-size:32px;margin:14px 0 10px}
-.how-sub{max-width:720px;margin:0 auto 36px;color:var(--muted);line-height:1.6}
+.how-title{
+  font-size:32px;
+  margin:14px 0 10px
+}
+.how-sub{
+  max-width:720px;
+  margin:0 auto 36px;
+  color:var(--muted);
+  line-height:1.6
+}
 
 /* grid */
 .how-grid{
@@ -1481,13 +1568,25 @@ body{
   font-size:18px;
   box-shadow:0 6px 18px rgba(31,106,96,.15);
 }
-.step-title{font-size:18px;margin:0 0 10px}
-.step-text{color:var(--muted);line-height:1.65;margin:0}
+.step-title{
+  font-size:18px;
+  margin:0 0 10px
+}
+.step-text
+{color:var(--muted);
+  line-height:1.65;
+  margin:0
+}
 
-/* dashed curves (SVG as background image) */
+/* dashed curves  */
 .arc{
-  position:absolute;top:6px;height:44px;width:26%;
-  background-repeat:no-repeat;background-position:center top;background-size:100% 100%;
+  position:absolute;
+  top:6px;
+  height:44px;
+  width:26%;
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:100% 100%;
   pointer-events:none;
   /* dashed curved path as data URI SVG */
   --svg:url("data:image/svg+xml;utf8,\
