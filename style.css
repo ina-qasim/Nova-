@@ -1122,7 +1122,7 @@ body{
     color: #64748b;
   }
   
-  /* Responsive styles */
+  /* Responsive  */
   @media (max-width: 768px) {
     .testimonials-grid {
       grid-template-columns: 1fr;
@@ -1293,7 +1293,7 @@ body{
   background-color: #3b9a8c; 
 }
 
-/* Responsive Design */
+/* Responsive  */
 
 @media (max-width: 768px) {
   .newsletter {
@@ -1406,7 +1406,7 @@ p {
   vertical-align: middle;
 }
 
-/* Contact Icon Styling */
+/* Contact  */
 .contact .ico {
   display: inline-grid;
   place-items: center;
@@ -1419,7 +1419,6 @@ p {
   font-size: 11px;
 }
 
-/* Bottom Bar Styling */
 .bottom {
   display: flex;
   justify-content: space-between;
@@ -1445,7 +1444,6 @@ p {
   color: #e25555;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .cols {
     grid-template-columns: 1fr 1fr;  
