@@ -1463,10 +1463,7 @@ body{
   .news-form button {
     width: 100%;
   } */
-   .news{
-    /* h3{
-      font-size: 8px;
-    } */
+   
    }
    .news-form {
     flex-direction: row; 
@@ -1498,7 +1495,7 @@ body{
     text-align: center;
     gap: 10px;
   }
-}
+
 
 @media (max-width: 560px) {
   .cols {
