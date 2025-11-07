@@ -1352,10 +1352,9 @@ body{
 }
 
 
-/* General Layout and Styling */
 .cols {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);  /* 4 columns by default */
+  grid-template-columns: repeat(4, 1fr);  
   gap: 30px;
   margin-top: 20px;
 }
@@ -1449,14 +1448,14 @@ p {
 /* Responsive Design */
 @media (max-width: 1024px) {
   .cols {
-    grid-template-columns: 1fr 1fr;  /* Two columns for medium screens */
+    grid-template-columns: 1fr 1fr;  
     gap: 20px;
   }
 }
 
 @media (max-width: 768px) {
   .cols {
-    grid-template-columns: 1fr;  /* Single column for smaller screens */
+    grid-template-columns: 1fr;  
     gap: 24px;
     text-align: start;
   }
