@@ -186,6 +186,9 @@ body{
   .menu-btn {
      display: block; 
     }
+    .btn{
+      display: none;
+    }
 }
 
 @media (max-width: 578px) {
